@@ -79,6 +79,10 @@ h1 {
     text-align: center;
 }
 
+hr {
+    border-color: #cccccc47;
+}
+
 nav {
     padding: 1%;
     margin-bottom: 1%;
@@ -384,6 +388,26 @@ print {
     margin: 1em 0em 1em 3em;
 }
 
+.why-ujala-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.why-ujala-block {
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.bg-1 {
+    background-color: #1a94ff36;
+}
+
+.bg-2{
+    background-color: #b3ffb375;
+}
+
 .d-flex {
     display: flex !important;
 }
@@ -414,6 +438,10 @@ print {
     perspective: 800px;
     transition: all 0.3s ease 0s;
     width: 23.7%;
+}
+
+.specials .cardBox {
+    width: 48%;
 }
 
 .cardBox:hover .card {
@@ -525,7 +553,7 @@ print {
         height: 430px;
     }
 
-    .logo-img{
+    .logo-img {
         margin: 0 auto;
         padding: 10px;
     }
@@ -547,6 +575,14 @@ print {
     padding: 2.5%;
 }
 
+.badge-offer {
+    border-radius: 6px;
+    background-color: #b3ffb3;
+    font-size: 0.5em;
+    font-weight: 800;
+    padding: 2.5%;
+}
+
 .product-m {
     margin: 6%;
     height: 200px;
@@ -554,6 +590,14 @@ print {
 
 .product-img {
     height: 100%;
+    margin: 0 auto;
+}
+
+.deal-img {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 9px #000;
     margin: 0 auto;
 }
 
@@ -590,9 +634,57 @@ print {
     margin-bottom: 2em;
 }
 
+.ml-4 {
+    margin-left: 2em;
+}
+
+.mr-4 {
+    margin-right: 2em;
+}
+
+.pt-1 {
+    padding-top: 0.5em;
+}
+
+.pt-2 {
+    padding-top: 1em;
+}
+
+.pt-3 {
+    padding-top: 1.5em;
+}
+
+.pt-4 {
+    padding-top: 2em;
+}
+
+.pb-1 {
+    padding-bottom: 0.5em;
+}
+
+.pb-2 {
+    padding-bottom: 1em;
+}
+
+.pb-3 {
+    padding-bottom: 1.5em;
+}
+
+.pb-4 {
+    padding-bottom: 2em;
+}
+
+.p-4{
+    padding: 2em;
+}
+
 /* font size options */
 .fs-9 {
     font-size: 0.5000em !important;
+}
+
+.fs-8 {
+    font-size: 0.45em !important;
 }
 
 .text-center {
@@ -600,13 +692,13 @@ print {
 }
 
 /* footer */
-.row{
-	display: flex;
-	flex-wrap: wrap;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.footer ul{
-	list-style: none;
+.footer ul {
+    list-style: none;
 }
 
 .footer {
@@ -614,7 +706,7 @@ print {
     padding: 20px 10px;
 }
 
-.f-container{
+.f-container {
     padding-left: 60px;
 }
 
@@ -692,27 +784,41 @@ print {
     }
 }
 
-.copyright{
+.copyright {
     background: #24262b;
     color: #fff;
     padding: 2%;
     text-align: center;
 }
 
-.float-right{
+.float-right {
     float: right;
 }
 
 /* customize scroll bar */
-
-*::-webkit-scrollbar
-{
-	width: 6px;
-	background-color: #F5F5F5;
+*::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
 }
 
-*::-webkit-scrollbar-thumb
-{
-	background-color: #000000a6;
+*::-webkit-scrollbar-thumb {
+    background-color: #000000a6;
     border-radius: 2px;
+}
+
+.overflow-y-h {
+    overflow-y: hidden;
+}
+
+.font-pacifico {
+    font-family: "Pacifico", cursive;
+}
+
+.font-francois-one {
+    font-family: 'Francois One', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    ;
 }
