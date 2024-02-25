@@ -227,6 +227,7 @@ print {
     .main-quote-inner {
         font-size: 1.3em;
         color: #1a94ff;
+        padding-top: 7px;
     }
 }
 
@@ -557,6 +558,10 @@ print {
         margin: 0 auto;
         padding: 10px;
     }
+
+    .specials .cardBox {
+        width: 97%;
+    }
 }
 
 .badge-exclusive {
@@ -821,4 +826,10 @@ print {
 .d-flex {
     display: flex;
     ;
+}
+
+.align-vertical{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
