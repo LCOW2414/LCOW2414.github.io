@@ -543,6 +543,15 @@ print {
     .cardBox:last-child {
         margin-bottom: 3%;
     }
+
+    .logo-img {
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .specials .cardBox {
+        width: 97%;
+    }
 }
 
 @media screen and (max-width: 480px) {
