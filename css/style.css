@@ -45,10 +45,12 @@ main {
 
 p {
     font-size: 0.8em;
+    text-align: justify;
 }
 
 span {
     font-size: 14px;
+    text-align: justify;
 }
 
 .tel-link {
@@ -821,4 +823,13 @@ print {
 .d-flex {
     display: flex;
     ;
+}
+
+.main-label{
+    font-size: 2em;
+    border-bottom: 2px solid #000;  
+}
+
+.text-left{
+    text-align: left !important;
 }

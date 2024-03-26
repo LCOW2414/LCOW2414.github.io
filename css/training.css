@@ -1,0 +1,65 @@
+/* Media Query for tablet viewport */
+@media screen and (min-width: 630px),
+print {
+
+    table {
+        border: 1px solid #80808066;
+        border-collapse: collapse;
+        max-width: auto;
+        width: 100%;
+    }
+
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 1%;
+    }
+
+    th,
+    td {
+        border: 1px solid #80808066;
+        padding: 0.5%;
+    }
+
+    th {
+        background-color: #000;
+        color: #fff;
+        font-size: 1.15em;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #80808066;
+    }
+
+    tr:hover {
+        background-color: #797777; 
+        color: white;
+        cursor: pointer;
+      }
+}
+
+@media screen and (min-width: 630px),
+print {
+
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block !important;
+    }
+
+    .mobile {
+        display: none !important;
+    }
+}
+
+/* Media Query for Large Desktop Viewports */
+@media screen and (min-width: 1921px) {
+
+    #container {
+        width: 1920px;
+        margin: 0 auto;
+    }
+
+    table {
+        width: 80%;
+    }
+}
