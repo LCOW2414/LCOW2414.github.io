@@ -18,9 +18,3 @@ audio::-webkit-media-controls {
     border-radius: 6px;
     padding: 10px;
 }
-
-audio::-webkit-media-controls-play-button,
-audio::-webkit-media-controls-mute-button,
-audio::-webkit-media-controls-timeline {
-    color: #fff;
-}
