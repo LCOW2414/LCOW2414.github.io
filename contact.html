@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Desk Lamps | Contact Us</title>
+</head>
+
+<body>
+    <section id="container">
+
+        <!--The header section here -->
+        <header>
+            <a href="index.html"><img src="img\forward-fitness-logo.png" alt="Gym Fitness" class="logo-img" /></a>
+        </header>
+
+        <!--use the nav section to link to pages on the site-->
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_self"> Home</a></li>
+                <li><a href="About.html"> About </a></li>
+                <li><a href="team.html"> Our Team </a></li>
+                <li><a href="specials.html"> Specials </a></li>
+                <li><a href="training.html"> Training </a></li>
+                <li><a href="media.html"> Media </a></li>
+                <li><a href="#"> FAQs </a></li>
+                <li><a href="contact.html"> Contact Us </a></li>
+            </ul>
+        </nav>
+
+        <!-- hero image -->
+        <div id="hero" class="tablet-desktop">
+            <img src="img/hero-image.jpg" alt="left arm extended holding a weight" class="main-img">
+            <div class="main-quote">Brighten Your Workspace <br /> with Our Stylish <br />
+                <div class="d-flex">
+                    <span class="main-quote-inner">Desk Lamps!</span>
+                    <img src="img/main-gif.gif" alt="bulb" style="height: 75px;">
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div class="text-center"><span class="main-label">Contact Us</span></div>
+
+            <div id="contact" class="d-flex main-section mt-4 mb-4">
+                <div class="w-50 contact-l">
+                    <h2>Ready to get started? Contact us today.</h2>
+                    <h4 class="tablet-desktop tel-num"><a href="tel:+1613-710-0949">(613) 710-0949</a></h4>
+                    <h4 id="contact">Email us: <a href="mailto:bestrongfitness@ottawa.ca"
+                            class="contact-email-link">info@ujaladesklamps.ca</a></h4>
+                </div>
+                <div class="w-50">
+                    <h3>Our Location</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.1785413162265!2d-75.7486021249433!3d45.26440154674926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccdfcc314946e5b%3A0x2bc5f1be8dcd0890!2s962%20Chapman%20Mills%20Dr%2C%20Ottawa%2C%20ON%20K2J%204H7!5e0!3m2!1sen!2sca!4v1712213823293!5m2!1sen!2sca"
+                        width="600" height="450" class="map" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <ol>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required autofocus>
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </li>
+                        <li>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                        </li>
+                        <li>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Enter your message"></textarea>
+                        </li>
+                        <li>
+                            <label for="topic">Topic:</label>
+                            <select id="topic" name="topic">
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="sales">Sales</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label>How did you hear about us?</label>
+                            <label for="search_engine"><input type="radio" id="search_engine" name="how_heard"
+                                    value="search_engine">Search Engine</label>
+
+                            <label for="social_media"><input type="radio" id="social_media" name="how_heard"
+                                    value="social_media">Social Media</label>
+
+                            <label for="word_of_mouth"><input type="radio" id="word_of_mouth" name="how_heard"
+                                    value="word_of_mouth">Word of Mouth</label>
+
+                            <label for="other"><input type="radio" id="other" name="how_heard"
+                                    value="other">Other</label>
+                        </li>
+                        <li>
+                            <label>Select Appointment Date</label>
+                            <input type="date" id="date" name="date">
+                        </li>
+                        <li>
+                            <label>Subscribe to newsletter:</label>
+                            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                            <label for="subscribe">Yes, please</label>
+                        </li>
+                        <li>
+                            <button type="submit">Submit Request</button>
+                            <button type="reset">Reset Form</button>
+                        </li>
+                    </ol>
+                </fieldset>
+            </form>
+        </main>
+
+        <!-- use the footer section to display footer -->
+        <footer>
+            <div class="footer">
+                <div class="f-container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="team.html">Our Team</a></li>
+                                <li><a href="media.html">Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Get Help</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="training.html">Training</a></li>
+                                <li><a href="specials.html">Specials</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Information</h4>
+                            <ul>
+                                <li><a href="#">Grishmkumar Govindbhai Rathod</a></li>
+                                <li><a href="#">Student Number: <strong>C0931040</strong><a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li><a href="mailto:info@ujaladesklamps.ca">info@ujaladesklamps.ca</a></li>
+                                <li><a href="#">+1 (613) 710-0949</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <em>&copy;Copyrights 2024. All Rights Reserved</em>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

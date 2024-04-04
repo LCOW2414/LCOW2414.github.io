@@ -6,7 +6,9 @@ main,
 h1,
 div,
 img,
-ul {
+ul,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -406,7 +408,7 @@ print {
     background-color: #1a94ff36;
 }
 
-.bg-2{
+.bg-2 {
     background-color: #b3ffb375;
 }
 
@@ -414,10 +416,15 @@ print {
     display: flex !important;
 }
 
+.w-50{
+    width: 50%;
+}
+
 /* main section */
 .main-section {
     background-color: #8b888830;
     padding: 2%;
+    border-radius: 5px;
 }
 
 .header1 {
@@ -676,7 +683,7 @@ print {
     padding-bottom: 2em;
 }
 
-.p-4{
+.p-4 {
     padding: 2em;
 }
 
@@ -825,11 +832,11 @@ print {
     ;
 }
 
-.main-label{
+.main-label {
     font-size: 2em;
-    border-bottom: 2px solid #000;  
+    border-bottom: 2px solid #000;
 }
 
-.text-left{
+.text-left {
     text-align: left !important;
 }
