@@ -1,5 +1,5 @@
 form {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -58,4 +58,13 @@ button[type="reset"] {
 
 .contact-l{
     padding-top: 13%;
+}
+
+/* Media Query for tablet viewport */
+@media screen and (min-width: 630px),
+print {
+    form {
+        width: 50%;
+        margin: 0 auto;
+    }
 }

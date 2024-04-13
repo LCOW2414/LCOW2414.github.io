@@ -21,8 +21,8 @@ video {
 
 /* style rules for mobile viewport */
 header {
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky;
+    position: sticky; */
     top: 0;
     background-color: #000;
     z-index: 9999;
@@ -87,16 +87,38 @@ hr {
     border-color: #cccccc47;
 }
 
-nav {
+/* style rule for humburger menu */
+.mobile-nav a {
+    color: #fff;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+    z-index: 99999;
+}
+
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.mobile-nav-inner a {
+    border-bottom: 1px solid #fff;
+}
+
+/* nav {
     padding: 1%;
     margin-bottom: 1%;
 }
 
 nav ul {
     list-style-type: none;
-    /* margin: 0; */
     text-align: center;
-}
+} */
 
 nav li {
     /* display: inline-block; */
@@ -104,14 +126,6 @@ nav li {
     font-family: 'Francois One', sans-serif;
     /* font-weight: bold; */
     border-top: 1px solid #fff;
-}
-
-nav li a {
-    display: block;
-    color: #fff;
-    /* text-align: center; */
-    padding: 0.5em 1em;
-    text-decoration: none;
 }
 
 ul {
@@ -163,7 +177,8 @@ print {
         display: block !important;
     }
 
-    .mobile {
+    .mobile,
+    .mobile-nav {
         display: none !important;
     }
 
@@ -173,9 +188,21 @@ print {
         padding-bottom: 2%;
     }
 
+    nav {
+        padding: 1%;
+        margin-bottom: 1%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        /* margin: 0; */
+        text-align: center;
+    }
+
     /* Tablet Viewport: Style rules for nav area */
     nav li {
-        border-top: none;
+        font-size: 1.3em;
+        font-family: 'Francois One', sans-serif;
         display: inline-block;
         border-right: 1px solid #fff;
     }
@@ -185,7 +212,10 @@ print {
     }
 
     nav li a {
-        padding: 0.1em 0.75em;
+        display: block;
+        color: #fff;
+        padding: 0.5em 1em;
+        text-decoration: none;
     }
 
     /* Tablet Viewport: Style rules for main content area */
@@ -374,7 +404,8 @@ print {
     display: block;
 }
 
-.tablet-desktop {
+.tablet-desktop,
+#menu-links {
     display: none;
 }
 
@@ -416,7 +447,7 @@ print {
     display: flex !important;
 }
 
-.w-50{
+.w-50 {
     width: 50%;
 }
 
